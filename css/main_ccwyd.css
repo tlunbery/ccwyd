@@ -1,0 +1,258 @@
+/*Created by Thomas Lunbery
+www.thomaslunbery.com*/
+
+/*  #ee9b19  -  yellow  */
+/*  #e7671e  -  orange  */
+/*  #dc2c1f  -  red     */
+/*  #51141b  -  up red  */
+
+/********** All **********/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #111;
+}
+
+a:hover {
+	color: #111;
+}
+
+/********** Portfolio link **********/
+#tllink {
+	background-color: #ffffff;
+	border-bottom: 2px solid #000000;
+     position: fixed;
+     width: 100%;
+}
+          
+#emailpic {
+	padding: 20px 20px 0px 0px;	
+}
+
+#linkedinpic {
+	padding: 20px 0px 0px 0px;	
+}
+
+#facebookpic {
+	padding: 20px 5px 0px 5px;	
+}
+
+/********** Header **********/
+.top {
+	padding: 90px 10px 0;
+}
+
+.header {
+	background: #fff;
+	font-size: 1.2em;
+	height: 190px;
+	margin: 0 auto;
+	padding: 15px 8px 7px;
+	width: 784px;
+	box-shadow: 3px 3px 5px #333;
+}
+
+/********** Body **********/
+body {
+	font: normal 62.5% Tahoma,sans-serif;
+     background-attachment:fixed;
+	background-color: #eae3da;
+}
+
+#intro {
+	color: #ee9b19 ;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #666;
+}
+
+#ulmain {
+	list-style: none;
+}
+
+p,ul {
+	padding-bottom: 1.2em;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font: normal 1.5em Tahoma, sans-serif;
+	margin-bottom: 0.2em;
+}
+
+h1,h2,h3 {
+	padding-top: 4px;
+}
+
+/********** Misc **********/
+.clearer {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/********** Main content **********/
+
+.main {
+	border-top: 4px solid #FFF;
+	background: url(/img/bgmain1.jpg) repeat-y;
+}
+
+.container {
+	background: #FFF;
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+	width: 780px;
+ 	box-shadow: 3px 3px 5px #333;
+}
+
+.content {
+	float: left;
+	margin: 10px 0;
+	padding: 0 16px;
+	width: 531px;
+}
+
+#mainreg {
+	text-align: center;
+}
+
+
+.content .descr {
+	color: #664;
+	font-size: 0.9em;
+	margin-bottom: 6px;
+}
+
+.content ul {
+	margin-left: 25px;
+}
+
+.content ul li {
+	list-style-type: none;
+}
+
+
+.content p {
+	font-family: Tahoma, sans-serif;
+	list-style-type: none;
+}
+
+.header .logo {
+	font: normal 2.8em Tahoma, sans-serif;
+	text-align: center;	
+	width: 784px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.header .right p,.header .right h2 {
+	padding: 0 16px;
+}
+
+.header .right h2 {
+	padding-top: 16px;
+	font: normal 1.6em Tahoma, sans-serif;
+}
+
+/********** Navigation **********/
+.navigation {	
+	background: url(/img/nav1.jpg);
+	text-align:center;
+	border-top: 0px solid #e7671e;
+	border-bottom: 0px solid #e7671e;
+	height: 48px;
+}
+
+.nav li {
+	display: inline;	
+}
+
+.navigation a {
+	border-left: 0px solid #ffffff;
+	color: #ffffff;
+	text-shadow: 1px 1px #333;
+	margin: 0 auto;
+	height: 41px;
+	display: inline-block;
+	font: bold 1.1em sans-serif;
+	line-height: 41px;
+	padding: 0px 20px;
+	border-right: 0px solid #ffffff;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #ee9b19;
+	background: #dc2c1f;
+}
+
+/********** Side navigation **********/
+.sidenav {
+	float: right;
+	width: 210px;
+}
+
+.sidenav h2 {
+	color: #000000;
+	font-size: 1em;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 11px;
+}
+
+.sidenav ul {
+	padding: 0;
+	border-top: 1px solid #EAEADA;
+}
+
+.sidenav li {
+	border-bottom: 1px solid #EAEADA;
+}
+
+.sidenav li a {
+	font-size: 1.1em;
+	color: #456;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+
+.sidenav li a:hover {
+	color: #ee9b19;
+	background: #dc2c1f;
+}
+
+/********** footer **********/
+.footer {
+	background: url(/img/footer1.jpg) repeat-x;
+	font: bold 1em sans-serif;
+	line-height: 39px;
+	text-align: center;
+}
+
+.footer .footertag {
+	color: #000000;
+}
+
+.footer .footertag a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.footer .footertag a:hover {
+	color: #ffffff;
+}
